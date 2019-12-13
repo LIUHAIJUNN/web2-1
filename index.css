@@ -1,0 +1,124 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.body{
+	height: 450px;
+	width: 1300px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	margin: 0 auto;
+}
+ul li{
+	list-style:none;
+}
+.head{
+	height: 25px;
+	background-color:#ccc;
+}
+.head1{
+	width: 1200px;
+	height: 25px;
+	margin: 0 auto;
+	position: relative;
+}
+.img{
+	position: absolute;
+	left: 100px;
+	top:5px;
+	float: left;
+	overflow: hidden;
+}
+#adv{
+	width: 1000px;
+	height: 20px;
+	float: left;
+	position:relative;
+	left: 120px;
+	overflow:hidden;
+}
+#adv1{
+	width: 450px;
+	position: absolute;
+	left: 120px;
+	color:red;
+}
+.aa{
+	display:block;
+	margin: 0;
+	width: 450px;
+}
+.box{
+	width: 1200px;
+	height: 350px;
+	margin: 0 auto;
+	margin-top:20px;
+	overflow: hidden;
+	position:relative;
+}
+.slider{
+	width: 9400px;
+	height: 350px;
+	position:absolute;
+	left: -1200px;
+	overflow: hidden;
+}
+.slide{
+	width: 1200px;
+	float: left;
+	overflow: hidden;
+}
+.span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	top: 160px;
+	line-height:50px;
+	background: red;
+	text-align: center;
+	cursor: pointer;
+	font-size: 35px;
+	opacity: 0;
+	position:absolute;
+	color:white;   
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.slider img{
+	float: left;
+}
+.nav{
+	margin: 0 auto;
+	width: 520px;
+	height: 50px;
+	position: absolute;
+	left: 400px;
+	bottom: 20px;
+}
+.nav li{
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: #ccc;
+	margin: 0 10px;
+	cursor: pointer;
+	border-radius:50%;
+	text-align: center;
+} 
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align: center;
+}
+.nav .active{
+	background:red;
+}
